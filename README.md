@@ -31,8 +31,17 @@ $ mkdir build && cd build
 $ ../bootstrap && make -j$(nproc) && make install
 ```
 
-# GCC sources:
+# GCC build from sources: (will be completed in future)
 ```
 $ git clone git://gcc.gnu.org/git/gcc.git dirname
 ...
+```
+
+# MPP ROCKCHIP build from sources:
+```
+$ git clone https://github.com/rockchip-linux/mpp.git
+$ cd mpp/build/*your os*/*your platform*/
+$ ./make-Makefiles.bash
+$ make -j$(nproc)
+$ make install
 ```
