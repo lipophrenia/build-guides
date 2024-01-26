@@ -1,10 +1,12 @@
 # GCC build from sources
-Качаем исходники с [GitHub](https://github.com/gcc-mirror/gcc/tags) / [RU mirror](http://mirror.linux-ia64.org/gnu/gcc/releases/)
+Download `gcc-<version>.tar.gz` from [GitHub](https://github.com/gcc-mirror/gcc/tags) / [RU mirror](http://mirror.linux-ia64.org/gnu/gcc/releases/).
+
+Version 13.2.0 is taken as an example.
 ```bash
 tar -xvf gcc-13.2.0.tar.gz
 cd gcc-13.2.0/
 
-# Скрипт в поставке gcc для скачивания зависимостей.
+# script for downloading dependencies
 ./contrib/download_prerequisites 
 ```
 
@@ -13,7 +15,7 @@ cd ..
 mkdir build && cd build
 ```
 
-Параметры для конфигурации надерганы [отсюда](https://iamsorush.com/posts/build-gcc11/), [отсюда](https://gist.github.com/jeetsukumaran/5224956) и [отсюда](https://gcc.gnu.org/install/configure.html)
+Configuration parameters taken from  [here](https://iamsorush.com/posts/build-gcc11/), [here](https://gist.github.com/jeetsukumaran/5224956) and [here](https://gcc.gnu.org/install/configure.html).
 ```bash
 ../configure --prefix=/usr/local/gcc-13.2.0 --program-suffix=-13.2.0 --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --disable-multilib --enable-languages=c,c++
 ```
@@ -23,7 +25,7 @@ make -j 6
 sudo make install
 ```
 
-В `~/.bashrc` добавить:
+Add to `~/.bashrc`:
 ```b
 # Path
 export PATH=/usr/local/gcc-13.2.0/bin:$PATH
