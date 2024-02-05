@@ -5,4 +5,4 @@
 
 [ROCKCHIP MPP + GSTREAMER PLUGINS](https://github.com/lipophrenia/guides/blob/main/gstreamer_rockchip.md)
 
-[OpenCV will be here soon]
+[OpenCV](https://github.com/lipophrenia/build-guides/blob/main/opencv.md)
