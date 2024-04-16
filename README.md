@@ -3,6 +3,6 @@
 
 [GCC](https://github.com/lipophrenia/guides/blob/main/gcc.md)
 
-[ROCKCHIP MPP + GSTREAMER PLUGINS](https://github.com/lipophrenia/guides/blob/main/gstreamer_rockchip.md)
+[LIBRGA + ROCKCHIP MPP + GSTREAMER PLUGINS](https://github.com/lipophrenia/guides/blob/main/rga_mpp_gstreamer_rockchip.md)
 
 [OpenCV](https://github.com/lipophrenia/build-guides/blob/main/opencv.md)
