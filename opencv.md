@@ -16,7 +16,7 @@ unzip opencv_contrib.zip
 ```
 Create build directory.
 ```bash
-mkdir -p build && cd build
+mkdir build && cd build
 ```
 Configure. [Config reference](https://docs.opencv.org/4.9.0/db/d05/tutorial_config_reference.html).
 ```bash
