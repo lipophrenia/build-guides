@@ -15,7 +15,7 @@ cd ..
 mkdir build && cd build
 ```
 
-Configuration parameters taken from  [here](https://iamsorush.com/posts/build-gcc11/), [here](https://gist.github.com/jeetsukumaran/5224956) and [here](https://gcc.gnu.org/install/configure.html).
+Configuration parameters were taken from  [here](https://iamsorush.com/posts/build-gcc11/), [here](https://gist.github.com/jeetsukumaran/5224956) and [here](https://gcc.gnu.org/install/configure.html).
 ```bash
 ../configure --prefix=/usr/local/gcc-13.2.0 --program-suffix=-13.2.0 --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --disable-multilib --enable-languages=c,c++
 ```
