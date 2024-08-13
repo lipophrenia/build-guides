@@ -5,6 +5,12 @@ $ sudo apt-get update
 $ sudo apt-get install ca-certificates gpg wget
 $ wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /usr/share/keyrings/kitware-archive-keyring.gpg >/dev/null
 ```
+
+<summary>UBUNTU 24.04 NOBLE NUMBAT</summary>
+
+```
+$ echo 'deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ noble main' | sudo tee /etc/apt/sources.list.d/kitware.list >/dev/null
+```
 <summary>UBUNTU 22.04 JAMMY JELLYFISH</summary>
 
 ```
