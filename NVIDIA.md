@@ -1,4 +1,4 @@
-# NVIDIA DRIVERS+CUDA LINUX
+# NVIDIA LINUX DRIVERS+CUDA
 
 You can follow [Official CUDA Linux Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
 
